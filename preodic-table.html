@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Periodic Table</title>
+
+        <style>
+            h1 {
+                text-align: center;
+            }
+
+            body {
+                padding: 20px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            td,
+            th {
+                border: 3px solid white;
+                text-align: center;
+                padding: 4px;
+                font-size: 10px;
+                transition: transform 0.5s ease;
+                border-radius: 8px;
+            }
+
+            .element {
+                width: 60px;
+                height: 60px;
+            }
+
+            td:hover,
+            th:hover {
+                transform: scale(1.8);
+                z-index:1;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Periodic <i class="italic" style="color: red;">Table</i></h1>
+        <table>
+            <tr>
+                <th style="color: #0060f0; background-color: #e2eeff;">1<br>H<br>Hydrogen </th>
+                <td colspan="17" class="empty"></td>
+                <th style="color: #cd1d5e; background-color: #ffe7eb;">2<br>He<br>Helium</th>
+            </tr>
+            <tr>
+                <th style="color: #00758c; background-color: #d8f8ff;">3<br>Li<br>Lithium</th>
+                <th style="color: #d60024; background-color: #ffe7e7;">4<br>Be<br>Beryllium</th>
+                <td colspan="11" class="empty"></td>
+                <th style="color: #945700; background-color: #fef7e0;">5<br>B<br>Boron</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">6<br>C<br>Carbon</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">7<br>N<br>Nitrogen</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">8<br>O<br>Oxygen</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">9<br>F<br>Fluorine</th>
+                <th style="color: #cd1d5e; background-color: #ffe7eb;">10<br>Ne<br>Neon</th>
+            </tr>
+            <tr>
+                <th style="color: #00758c; background-color: #d8f8ff;">11<br>Na<br>Sodium</th>
+                <th style="color: #d60024; background-color: #ffe7e7;">12<br>Mg<br>Magnesium</th>
+                <td colspan="11" class="empty"></td>
+                <th style="color: #227754; background-color: #d6f9e8;">13<br>Al<br>Aluminium</th>
+                <th style="color: #945700; background-color: #fef7e0;">14<br>Si<br>Silicon</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">15<br>P<br>Phosphorus</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">16<br>S<br>Sulfur</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">17<br>Cl<br>Chlorine</th>
+                <th style="color: #cd1d5e; background-color: #ffe7eb;">18<br>Ar<br>Argon</th>
+            </tr>
+            <tr>
+                <th style="color: #00758c; background-color: #d8f8ff;">19<br>K<br>Potassium</th>
+                <th style="color: #d60024; background-color: #ffe7e7;">20<br>Ca<br>Calcium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">21<br>Sc<br>Scandium</th>
+
+                <th rowspan="4"></th>
+
+                <th style="color: #6232ec; background-color: #f3e8fd;">22<br>Ti<br>Titanium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">23<br>V<br>Vanadium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">24<br>Cr<br>Chromium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">25<br>Mn<br>Manganese</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">26<br>Fe<br>Iron</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">27<br>Co<br>Cobalt</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">28<br>Ni<br>Nickel</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">29<br>Cu<br>Copper</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">30<br>Zn<br>Zinc</th>
+                <th style="color: #227754; background-color: #d6f9e8;">31<br>Ga<br>Gallium</th>
+                <th style="color: #945700; background-color: #fef7e0;">32<br>Ge<br>Germanium</th>
+                <th style="color: #945700; background-color: #fef7e0;">33<br>As<br>Arsenic</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">34<br>Se<br>Selenium</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">35<br>Br<br>Bromine</th>
+                <th style="color: #cd1d5e; background-color: #ffe7eb;">36<br>Kr<br>Krypton</th>
+            </tr>
+            <tr>
+                <th style="color: #00758c; background-color: #d8f8ff;">37<br>Rb<br>Rubidium</th>
+                <th style="color: #d60024; background-color: #ffe7e7;">38<br>Sr<br>Strontium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">39<br>Y<br>Yttrium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">40<br>Zr<br>Zirconium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">41<br>Nb<br>Niobium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">42<br>Mo<br>Molybdenum</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">43<br>Tc<br>Technetium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">44<br>Ru<br>Ruthenium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">45<br>Rh<br>Rhodium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">46<br>Pd<br>Palladium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">47<br>Ag<br>Silver</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">48<br>Cd<br>Cadmium</th>
+                <th style="color: #227754; background-color: #d6f9e8;">49<br>In<br>Indium</th>
+                <th style="color: #227754; background-color: #d6f9e8;">50<br>Sn<br>Tin</th>
+                <th style="color: #945700; background-color: #fef7e0;">51<br>Sb<br>Antimony</th>
+                <th style="color: #945700; background-color: #fef7e0;">52<br>Te<br>Tellurium</th>
+                <th style="color: #0060f0; background-color: #e2eeff;">53<br>I<br>Iodine</th>
+                <th style="color: #cd1d5e; background-color: #ffe7eb;">54<br>Xe<br>Xenon</th>
+            </tr>
+            <tr>
+                <th style="color: #00758c; background-color: #d8f8ff;">55<br>Cs<br>Caesium</th>
+                <th style="color: #d60024; background-color: #ffe7e7;">56<br>Ba<br>Barium</th>
+                <th style="color: #003355; background-color: #dff3ff;">57<br>La<br>Lanthanum<br></th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">72<br>Hf<br>Hafnium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">73<br>Ta<br>Tantalum</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">74<br>W<br>Tungsten</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">75<br>Re<br>Rhenium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">76<br>Os<br>Osmium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">77<br>Ir<br>Iridium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">78<br>Pt<br>Platinum</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">79<br>Au<br>Gold</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">80<br>Hg<br>Mercury</th>
+                <th style="color: #227754; background-color: #d6f9e8;">81<br>Tl<br>Thallium</th>
+                <th style="color: #227754; background-color: #d6f9e8;">82<br>Pb<br>Lead</th>
+                <th style="color: #227754; background-color: #d6f9e8;">83<br>Bi<br>Bismuth</th>
+                <th style="color: #227754; background-color: #d6f9e8;">84<br>Po<br>Polonium</th>
+                <th style="color: #227754; background-color: #d6f9e8;">85<br>At<br>Astatine</th>
+                <th style="color: #cd1d5e; background-color: #ffe7eb;">86<br>Rn<br>Radon</th>
+            </tr>
+            <tr>
+                <th style="color: #00758c; background-color: #d8f8ff;">87<br>Fr<br>Francium</th>
+                <th style="color: #d60024; background-color: #ffe7e7;">88<br>Ra<br>Radium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">89<br>Ac<br>Actinium<br></th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">104<br>Rf<br>Rutherfordium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">105<br>Db<br>Dubnium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">106<br>Sg<br>Seaborgium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">107<br>Bh<br>Bohrium</th>
+                <th style="color: #6232ec; background-color: #f3e8fd;">108<br>Hs<br>Hassium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">109<br>Mt<br>Meitnerium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">110<br>Ds<br>Darmstadtium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">111<br>Rg<br>Roentgenium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">112<br>Cn<br>Copernicium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">113<br>Nh<br>Nihonium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">114<br>Fl<br>Flerovium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">115<br>Mc<br>Moscovium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">116<br>Lv<br>Livermorium</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">117<br>Ts<br>Tennessine</th>
+                <th style="color: #3f374f; background-color: #e7e7ea;">118<br>Og<br>Oganesson</th>
+            </tr>
+            <tr>
+                <td colspan="18" class="empty"></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+                <th style="color: #003355; background-color: #dff3ff;">58<br>Ce<br>Cerium</th>
+                <th style="color: #003355; background-color: #dff3ff;">59<br>Pr<br>Praseodymium</th>
+                <th style="color: #003355; background-color: #dff3ff;">60<br>Nd<br>Neodymium</th>
+                <th style="color: #003355; background-color: #dff3ff;">61<br>Pm<br>Promethium</th>
+                <th style="color: #003355; background-color: #dff3ff;">62<br>Sm<br>Samarium</th>
+                <th style="color: #003355; background-color: #dff3ff;">63<br>Eu<br>Europium</th>
+                <th style="color: #003355; background-color: #dff3ff;">64<br>Gd<br>Gadolinium</th>
+                <th style="color: #003355; background-color: #dff3ff;">65<br>Tb<br>Terbium</th>
+                <th style="color: #003355; background-color: #dff3ff;">66<br>Dy<br>Dysprosium</th>
+                <th style="color: #003355; background-color: #dff3ff;">67<br>Ho<br>Holmium</th>
+                <th style="color: #003355; background-color: #dff3ff;">68<br>Er<br>Erbium</th>
+                <th style="color: #003355; background-color: #dff3ff;">69<br>Tm<br>Thulium</th>
+                <th style="color: #003355; background-color: #dff3ff;">70<br>Yb<br>Ytterbium</th>
+                <th style="color: #003355; background-color: #dff3ff;">71<br>Lu<br>Lutetium</th>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+                <th style="color: #c73200; background-color: #ffe6d4;">90<br>Th<br>Thorium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">91<br>Pa<br>Protactinium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">92<br>U<br>Uranium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">93<br>Np<br>Neptunium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">94<br>Pu<br>Plutonium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">95<br>Am<br>Americium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">96<br>Cm<br>Curium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">97<br>Bk<br>Berkelium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">98<br>Cf<br>Californium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">99<br>Es<br>Einsteinium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">100<br>Fm<br>Fermium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">101<br>Md<br>Mendelevium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">102<br>No<br>Nobelium</th>
+                <th style="color: #c73200; background-color: #ffe6d4;">103<br>Lr<br>Lawrencium</th>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
